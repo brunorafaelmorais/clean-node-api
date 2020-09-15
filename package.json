@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev:server": "tsnd --respawn --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "repository": "git@github.com:rafabruno/clean-node-api.git",
   "author": "rafabruno <brunor_morais@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.62",
     "typescript": "^4.0.2"
   }
 }
