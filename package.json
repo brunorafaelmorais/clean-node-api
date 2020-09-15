@@ -2,7 +2,13 @@
   "name": "clean-node-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": "git@github.com:rafabruno/clean-node-api.git",
   "author": "rafabruno <brunor_morais@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
 }
